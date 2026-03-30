@@ -1,6 +1,6 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: https://aep.dev/json-schema/type/problems.json
-title: An RFC 7807 problem object
+title: An RFC 9457 problem object
 type: object
 properties:
   type:
@@ -22,3 +22,4 @@ properties:
     type: string
     format: uri-reference
     description: A URI reference that identifies the specific occurrence of the problem. It may or may not yield further information if dereferenced.
+additionalProperties: true
